@@ -15,10 +15,6 @@ export const translations = {
     languageLabel: "Language",
     whatsappAria: "Message Don Abraham on WhatsApp",
     whatsappMessage: "Hi, I'm interested in renting your properties.",
-    whatsappAccountName: "Don Abraham",
-    whatsappStatus: "Host · Cali, Colombia",
-    whatsappGreeting: "Hi! 👋 Which of our homes caught your eye?",
-    whatsappPlaceholder: "Hi, I'm interested in renting your properties...",
   },
   es: {
     heroEyebrow: "San Antonio · Cali, Colombia",
@@ -34,9 +30,5 @@ export const translations = {
     languageLabel: "Idioma",
     whatsappAria: "Escribir a Don Abraham por WhatsApp",
     whatsappMessage: "Hola, me interesa alquilar tus propiedades.",
-    whatsappAccountName: "Don Abraham",
-    whatsappStatus: "Anfitrión · Cali, Colombia",
-    whatsappGreeting: "¡Hola! 👋 ¿Cuál de nuestras casas te llamó la atención?",
-    whatsappPlaceholder: "Hola, me interesa alquilar tus propiedades...",
   },
 } as const;
