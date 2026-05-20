@@ -5,6 +5,7 @@ import { translations } from "../lib/i18n";
 import { properties } from "../lib/properties";
 import { SiteHeader } from "./SiteHeader";
 import { PropertyCard } from "./PropertyCard";
+import { WhatsAppButton } from "./WhatsAppButton";
 
 export function SitePage() {
   const { language } = useLanguage();
@@ -40,6 +41,7 @@ export function SitePage() {
       <footer className="border-t border-[color:var(--clay)]/20 bg-[color:var(--sand-deep)] px-6 py-8 text-center text-sm text-[color:var(--clay-dark)]">
         {t.footerNote}
       </footer>
+      <WhatsAppButton />
     </div>
   );
 }

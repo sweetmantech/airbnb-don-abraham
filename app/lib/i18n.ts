@@ -13,6 +13,8 @@ export const translations = {
     viewOnAirbnb: "View on Airbnb",
     footerNote: "Hosted by Don Abraham · San Antonio, Cali, Colombia",
     languageLabel: "Language",
+    whatsappAria: "Message Don Abraham on WhatsApp",
+    whatsappMessage: "Hi, I'm interested in renting your properties.",
   },
   es: {
     heroEyebrow: "San Antonio · Cali, Colombia",
@@ -26,5 +28,7 @@ export const translations = {
     viewOnAirbnb: "Ver en Airbnb",
     footerNote: "Anfitrión: Don Abraham · San Antonio, Cali, Colombia",
     languageLabel: "Idioma",
+    whatsappAria: "Escribir a Don Abraham por WhatsApp",
+    whatsappMessage: "Hola, me interesa alquilar tus propiedades.",
   },
 } as const;
