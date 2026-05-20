@@ -14,9 +14,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Don Abraham — Airbnb homes in Cali, Colombia",
+  title: "Don Abraham — Casas en Cali, Colombia",
   description:
-    "A family of Airbnb properties in Cali, Colombia, hosted by Don Abraham. Browse photos and book directly on Airbnb.",
+    "Una familia de propiedades en Cali, Colombia, atendidas por Don Abraham. Explora las fotos y reserva directamente en Airbnb.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`${geistSans.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
