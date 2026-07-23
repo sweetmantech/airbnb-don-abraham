@@ -16,6 +16,23 @@ export type Property = {
 
 export const properties: Property[] = [
   {
+    id: "casita-colonial-privada",
+    name: "Casita Colonial Privada en San Antonio",
+    neighborhood: "San Antonio, Cali",
+    bedrooms: 1,
+    beds: 1,
+    baths: 1,
+    rating: 5.0,
+    airbnbUrl: "https://www.airbnb.com/rooms/1690023440528711478",
+    photos: [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1690023440528711478/original/41fe982d-4f7d-480a-a9e6-6fcec78a7b4b.jpeg?im_w=1200",
+    ],
+    description: {
+      en: "Enjoy a quiet stay in a private colonial house in the heart of San Antonio, one of Cali's most charming neighborhoods. Just a street away from the church, you'll live among cafés, viewpoints, culture, and streets full of history.",
+      es: "Disfruta de una estancia tranquila en una casa colonial privada en el corazón de San Antonio, uno de los barrios más encantadores de Cali. A solo una calle de la iglesia, vivirás entre cafés, miradores, cultura y calles llenas de historia.",
+    },
+  },
+  {
     id: "terraza-360",
     name: "Casa en San Antonio con mágica Terraza 360 y brisa",
     neighborhood: "San Antonio, Cali",
